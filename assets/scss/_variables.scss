@@ -1,0 +1,12 @@
+:root {
+  --main-color: #9e0000;
+  --main-color-dark: #006699;
+  --colored-span: #004773;
+  --smTxt: 0.75rem;
+}
+
+$smTxt: var(--smTxt);
+$main-color: var(--main-color);
+// $main-color: #9e0000 ;
+$main-color-dark: var(--main-color-dark);
+$colored-span: var(--colored-span);

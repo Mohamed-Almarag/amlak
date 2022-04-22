@@ -1,0 +1,73 @@
+.colored-span {
+  color: $colored-span;
+}
+.current-price {
+  font-weight: bold;
+}
+.deleted-price {
+  color: #707070;
+}
+
+.form-input-no-effect {
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  &:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+}
+.bordered-bottom {
+  border-bottom: 2px solid $colored-span;
+  display: inline-block;
+}
+.burble-button {
+  background-color: $main-color;
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+}
+.text-dimied {
+  color: #c2c2c2;
+}
+
+.sidebar-fixed-toggler {
+  position: fixed;
+  top: 50%;
+  left: 7px;
+  z-index: 999;
+  border: none;
+  outline: none;
+  @media (min-width: 992px) {
+    display: none;
+  }
+  i {
+    color: #fff;
+    z-index: 99;
+
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 9px;
+    line-height: 1;
+    margin: 0;
+    cursor: pointer;
+  }
+}
+
+.text-gold {
+  color: gold;
+}
+
+.cover-img {
+  @media (max-width: 767px) {
+    min-height: 50vh;
+    margin: 3% 0;
+  }
+}
+.text-danger{
+  color: $main-color !important;
+}

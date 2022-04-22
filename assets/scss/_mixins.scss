@@ -1,0 +1,153 @@
+@mixin mq(
+  $mq-breakpoint,
+  $mq-width: 'min-width',
+  $mq-breakpoints: $breakpoints
+) {
+  @if $mq-width == 'max' {
+    $mq-width: 'max-width';
+    $mq-breakpoints: $max-breakpoints;
+  }
+
+  // If $mq-breakpoint is a key that exists in this
+  @if map-has-key($mq-breakpoints, $mq-breakpoint) {
+    $mq-breakpoint: map-get($mq-breakpoints, $mq-breakpoint);
+  }
+
+  @media screen and (#{$mq-width}: #{$mq-breakpoint}) {
+    @content;
+  }
+}
+
+// Use @include mq(lg, 'max') for max-width or @include mq(lg)
+@mixin mobile {
+  @media (min-width: 320px) and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 768px) and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin largecreen {
+  @media (max-width: 1920px) {
+    @content;
+  }
+}
+
+//buttons
+
+// Variables
+@import './_variables.scss';
+@mixin button-variant(
+  $color,
+  $background,
+  $border,
+  $color-hover: $color,
+  $hover-background: lighten($background, 6%),
+  $hover-border: lighten($border, 6%),
+  $active-background: darken($background, 10%),
+  $active-border: darken($border, 10%),
+  $box-shadow: none,
+  $box-shadow-hover: none
+) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+  box-shadow: $box-shadow;
+
+  &:hover,
+  &:focus,
+  &.focus,
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: $color-hover;
+    background-color: $hover-background;
+    border-color: $hover-border;
+    box-shadow: $box-shadow-hover;
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $color;
+    background-color: $background;
+    border-color: $border;
+  }
+}
+
+@mixin button-outline-variant(
+  $color,
+  $color-hover: $color,
+  $active-background: $color,
+  $border-color: $color,
+  $active-border: $color,
+  $box-shadow: none,
+  $box-shadow-hover: none
+) {
+  color: $color;
+  background-color: transparent;
+  background-image: none;
+  border-color: $border-color;
+  box-shadow: $box-shadow;
+
+  &:hover,
+  &:focus,
+  &.focus,
+  &:not(:disabled):not(.disabled):active,
+  &:not(:disabled):not(.disabled).active,
+  .show > &.dropdown-toggle {
+    color: $color-hover;
+    background-color: $active-background;
+    border-color: $active-border;
+    box-shadow: $box-shadow-hover;
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $color;
+    background-color: transparent;
+  }
+}
+$link-color: $main_color !default;
+
+$lazy-image-background: #ebebeb;
+
+$border-radius: 0 !default;
+
+$body-text: #666666 !default;
+$light-text: #999999 !default;
+$dark-text: #333333 !default;
+$headings-text: $dark-text !default;
+
+$font-family: AlefFont !default;
+$second-font-family: AlefFont !default;
+// $font-family: 'Poppins', sans-serif !default;
+// $second-font-family: 'Poppins', sans-serif !default;
+
+$breakpoints: (
+  xs: 480px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px,
+  xlst: 1920px,
+);
+
+$max-breakpoints: (
+  xs: 479px,
+  sm: 575px,
+  md: 767px,
+  lg: 991px,
+  xl: 1199px,
+  xxl: 1599px,
+);

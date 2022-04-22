@@ -1,0 +1,226 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\about\\\\index.vue",
+    "chunkName": "pages/about/index",
+    "_name": "_0373ba28"
+  },
+  {
+    "name": "auctions",
+    "path": "/auctions",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\auctions\\\\index.vue",
+    "chunkName": "pages/auctions/index",
+    "_name": "_5b63d4e2"
+  },
+  {
+    "name": "Blog",
+    "path": "/Blog",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Blog\\\\index.vue",
+    "chunkName": "pages/Blog/index",
+    "_name": "_108deb9d"
+  },
+  {
+    "name": "Cart",
+    "path": "/Cart",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Cart\\\\index.vue",
+    "chunkName": "pages/Cart/index",
+    "_name": "_351fb542"
+  },
+  {
+    "name": "classifiedAds",
+    "path": "/classifiedAds",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\classifiedAds\\\\index.vue",
+    "chunkName": "pages/classifiedAds/index",
+    "_name": "_7aaf0f18"
+  },
+  {
+    "name": "courses",
+    "path": "/courses",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\courses\\\\index.vue",
+    "chunkName": "pages/courses/index",
+    "_name": "_1011f25d"
+  },
+  {
+    "name": "details",
+    "path": "/details",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\details\\\\index.vue",
+    "chunkName": "pages/details/index",
+    "_name": "_f06eecda"
+  },
+  {
+    "name": "events",
+    "path": "/events",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\events\\\\index.vue",
+    "chunkName": "pages/events/index",
+    "_name": "_8283aeb4"
+  },
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\news\\\\index.vue",
+    "chunkName": "pages/news/index",
+    "_name": "_259f9fec"
+  },
+  {
+    "name": "Notify",
+    "path": "/Notify",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Notify\\\\index.vue",
+    "chunkName": "pages/Notify/index",
+    "_name": "_5203f456"
+  },
+  {
+    "name": "Profile",
+    "path": "/Profile",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Profile\\\\index.vue",
+    "chunkName": "pages/Profile/index",
+    "_name": "_32bbd7ec"
+  },
+  {
+    "name": "requests",
+    "path": "/requests",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\requests\\\\index.vue",
+    "chunkName": "pages/requests/index",
+    "_name": "_337817db"
+  },
+  {
+    "name": "test",
+    "path": "/test",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\test.vue",
+    "chunkName": "pages/test",
+    "_name": "_6c1fcbd6"
+  },
+  {
+    "name": "auth-change-password",
+    "path": "/auth/change-password",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\auth\\\\change-password.vue",
+    "chunkName": "pages/auth/change-password",
+    "_name": "_d4672406"
+  },
+  {
+    "name": "auth-check-code",
+    "path": "/auth/check-code",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\auth\\\\check-code.vue",
+    "chunkName": "pages/auth/check-code",
+    "_name": "_642dd486"
+  },
+  {
+    "name": "auth-forgot-password",
+    "path": "/auth/forgot-password",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\auth\\\\forgot-password.vue",
+    "chunkName": "pages/auth/forgot-password",
+    "_name": "_cc24dd2c"
+  },
+  {
+    "name": "auth-login",
+    "path": "/auth/login",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\auth\\\\login.vue",
+    "chunkName": "pages/auth/login",
+    "_name": "_5cd4490e"
+  },
+  {
+    "name": "auth-register",
+    "path": "/auth/register",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\auth\\\\register.vue",
+    "chunkName": "pages/auth/register",
+    "_name": "_62328d0e"
+  },
+  {
+    "name": "auth-update-password",
+    "path": "/auth/update-password",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\auth\\\\update-password.vue",
+    "chunkName": "pages/auth/update-password",
+    "_name": "_3e101984"
+  },
+  {
+    "name": "Cart-adresses",
+    "path": "/Cart/adresses",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Cart\\\\adresses.vue",
+    "chunkName": "pages/Cart/adresses",
+    "_name": "_60874327"
+  },
+  {
+    "name": "Cart-personal-data",
+    "path": "/Cart/personal-data",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Cart\\\\personal-data.vue",
+    "chunkName": "pages/Cart/personal-data",
+    "_name": "_bcd53fb8"
+  },
+  {
+    "name": "Cart-storement",
+    "path": "/Cart/storement",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Cart\\\\storement.vue",
+    "chunkName": "pages/Cart/storement",
+    "_name": "_09eaf14c"
+  },
+  {
+    "name": "courses-bye",
+    "path": "/courses/bye",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\courses\\\\bye\\\\index.vue",
+    "chunkName": "pages/courses/bye/index",
+    "_name": "_7c5bb729"
+  },
+  {
+    "name": "courses-successBye",
+    "path": "/courses/successBye",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\courses\\\\successBye.vue",
+    "chunkName": "pages/courses/successBye",
+    "_name": "_481018f0"
+  },
+  {
+    "name": "auctions-slug",
+    "path": "/auctions/:slug",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\auctions\\\\_slug.vue",
+    "chunkName": "pages/auctions/_slug",
+    "_name": "_5ed11772"
+  },
+  {
+    "name": "Blog-slug",
+    "path": "/Blog/:slug",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Blog\\\\_slug.vue",
+    "chunkName": "pages/Blog/_slug",
+    "_name": "_0ed74a55"
+  },
+  {
+    "name": "courses-slug",
+    "path": "/courses/:slug",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\courses\\\\_slug.vue",
+    "chunkName": "pages/courses/_slug",
+    "_name": "_0e5b5115"
+  },
+  {
+    "name": "events-slug",
+    "path": "/events/:slug",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\events\\\\_slug.vue",
+    "chunkName": "pages/events/_slug",
+    "_name": "_85f0f144"
+  },
+  {
+    "name": "news-slug",
+    "path": "/news/:slug",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\news\\\\_slug.vue",
+    "chunkName": "pages/news/_slug",
+    "_name": "_23e8fea4"
+  },
+  {
+    "name": "Product-id",
+    "path": "/Product/:id?",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Product\\\\_id.vue",
+    "chunkName": "pages/Product/_id",
+    "_name": "_0ef01e64"
+  },
+  {
+    "name": "Search-id",
+    "path": "/Search/:id?",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\Search\\\\_id.vue",
+    "chunkName": "pages/Search/_id",
+    "_name": "_5bb5fe82"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\softgates\\\\amlak\\\\offers_front\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_e62e3842"
+  }
+]
